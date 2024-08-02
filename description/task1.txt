@@ -1,0 +1,5 @@
+Task 1:
+Do sequence of button clicks in Notepad.
+Type: This is my first sentence.
+Click on Edit and the Replace
+Then Replace "sentence" with "write"
