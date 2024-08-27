@@ -12,5 +12,6 @@ def ReplaceText(app, str1, str2):
     Replace_win.ReplaceAll.click()
 
 app = Application(backend="uia").start("notepad.exe")
+app = Application(backend="uia").connect("notepad.exe")
 app.UntitledNotepad.type_keys("This is my first sentence.", with_spaces=True)
 ReplaceText(app, "sentence", "write")
